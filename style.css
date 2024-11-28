@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+
+/*Tried Dark Mode*/ 
+body.dark-mode {
+    background-color: #f4f4f4;
+    color: #1e1e1e;
+}
+
+.navbar {
+    position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar .text p {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+/*Button*/
+.button {
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+/*Button er style*/
+.button button {
+    background: linear-gradient(135deg, #0972af, #3d40e7);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 8px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 400px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 8px 15px rgba(113, 98, 248, 0.2);
+    transition: all 0.3s ease-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.button button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+.button a:hover {
+    text-decoration: underline;
+}
+
+p.note {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #7577f8;
+    font-weight: bold;
+    text-shadow: #f1f1f1;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: whitesmoke;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a.credit {
+    text-decoration: none;
+    color: #348fda;
+}
