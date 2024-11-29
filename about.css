@@ -72,7 +72,22 @@ h1 {
     letter-spacing: 2px;
 }
 
-h2 {
+.title-container {
+    text-align: center;
+}
+
+.animated-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #6a11cb; /* Gradient-like color start */
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* h2 {
     text-align: center;
     font-size: 2rem;
     color: var(--secondary-text-color);
@@ -81,7 +96,7 @@ h2 {
     text-shadow: 0 0 1em blue, 0 0 0.00000000000000000000005em blue;
     text-transform: uppercase;
 }
-
+ */
 .team-section {
     margin-top: 50px;
     padding: 0 10%;
