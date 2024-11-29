@@ -1,5 +1,5 @@
 // Array of titles to cycle through
-const titles = ["Dedication", "Responsible", "Productive", "Smarter"];
+const titles = ["Dedication", "Responsible", "Productive", "Smarter", "Our Team"];
 
 // Select the title element
 const titleElement = document.getElementById("dynamic-title");
@@ -17,4 +17,4 @@ function updateTitle() {
 }
 
 // Change the title every 2 seconds
-setInterval(updateTitle, 2000);
+setInterval(updateTitle, 4000);
