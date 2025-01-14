@@ -1,4 +1,4 @@
-const titles = ["Our Team", "Dedication", "Responsible", "Productive", "Smarter"];
+const titles = ["Our Team", "Dedicated", "Responsible", "Productive", "Smarter"];
 const titleElement = document.getElementById("dynamic-title");
 let currentIndex = 0;
 
